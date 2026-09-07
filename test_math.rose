@@ -1,0 +1,20 @@
+task add(x, y) {
+    send x + y
+}
+
+task start() {
+    result = add(3, 4)
+    write("3 + 4 = 7\n")
+
+    i = 0
+    loop(i < 5) {
+        i = i + 1
+    }
+    write("loop done\n")
+
+    if (result == 7) {
+        write("math works!\n")
+    } else {
+        write("math broken!\n")
+    }
+}
