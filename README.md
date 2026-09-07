@@ -1,6 +1,6 @@
 # SoftRose
 
-Thorn programming language compiler. Compiles to ThornASM assembly. Part of the ThornOS project.
+SoftRose programming language compiler. Compiles to ThornASM assembly. Part of the ThornOS project.
 
 ## Usage
 
